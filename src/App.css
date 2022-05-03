@@ -36,3 +36,18 @@
     transform: rotate(360deg);
   }
 }
+
+/* add media query */
+@media (max-width: 900px) {
+  .webcam{
+    width: 100vw;
+    height: 100vh;
+  }
+  .App-header {
+    height: 100vh;
+  }
+  .canvas{
+    width: 100vw;
+    height: 100vh;
+  }
+}
